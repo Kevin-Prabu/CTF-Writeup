@@ -1,0 +1,54 @@
+# Challenge Name
+
+**Platform:** PicoCTF  
+**Category:** Web Exploitation  
+**Difficulty:** Easy  
+
+---
+
+## 🧠 Understanding the Problem
+Explain what the challenge is asking in your own words.
+
+- What is the goal?
+- What are you given (website, file, input box, etc.)?
+
+---
+
+## 🔍 Initial Observations
+What did you notice first?
+
+- Any interesting URLs?
+- Cookies?
+- Page behavior?
+- Hidden inputs?
+
+---
+
+## ⚙️ Steps Taken
+
+1. First thing you tried and why  
+2. What happened  
+3. Next step and reasoning  
+4. Continue step-by-step  
+
+> Write your **thinking**, not just actions
+
+---
+
+## 🛠️ Tools Used
+- Burp Suite  
+- Browser DevTools  
+- CyberChef  
+- curl (if used)
+
+---
+
+## 💡 Solution
+Explain the final working method clearly.
+
+- What vulnerability or trick worked?
+- Why did it work?
+
+---
+
+## 🏁 Flag
