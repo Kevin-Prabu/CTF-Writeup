@@ -6,7 +6,7 @@
 
 ---
 
-## 🧠 Understanding the Problem
+## 1. Understanding the Problem
 Explain what the challenge is asking in your own words.
 
 - What is the goal?
@@ -14,7 +14,7 @@ Explain what the challenge is asking in your own words.
 
 ---
 
-## 🔍 Initial Observations
+## 2. Initial Observations
 What did you notice first?
 
 - Any interesting URLs?
@@ -24,7 +24,7 @@ What did you notice first?
 
 ---
 
-## ⚙️ Steps Taken
+## 3. Steps Taken
 
 1. First thing you tried and why  
 2. What happened  
@@ -35,7 +35,7 @@ What did you notice first?
 
 ---
 
-## 🛠️ Tools Used
+## 4. Tools Used
 - Burp Suite  
 - Browser DevTools  
 - CyberChef  
@@ -43,7 +43,7 @@ What did you notice first?
 
 ---
 
-## 💡 Solution
+## 5. Solution
 Explain the final working method clearly.
 
 - What vulnerability or trick worked?
