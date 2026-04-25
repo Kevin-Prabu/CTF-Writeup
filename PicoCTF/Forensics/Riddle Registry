@@ -1,0 +1,38 @@
+# Riddle Registry
+
+**Platform:** PicoCTF  
+**Category:** Forensics 
+**Difficulty:** Easy  
+
+---
+
+## 1. Understanding the Problem
+The challenge gave us a PDF file
+
+---
+
+## 2. Initial Observations
+1. It looked like a offical documents with the formating
+2. there were 2 languages French and English
+3. There were redacted text in the PDF
+---
+
+## 3. Steps Taken
+1. I downloaded the PDF the site has given me and went through it
+2. i saw some redacted parts and i managed to copy the text and paste them in a notepad but i didnt get any useful info so i decided to check the metadata of the file
+3. I loaded the PDF file into Kali linux to run Exiftools to get the metadata of the file 
+4. After running Exiftools on the PDF i saw instead of Author in that their was a Base64-encoded string (a good sign was that it ended with a = sign)
+5. I took that Base64-encoded string and ran it in CyberChef and once it decyipered it the Base64-encoded string was the flag
+---
+
+## 4. Tools Used
+- Exiftools (Kali)
+- CyberChef
+---
+
+## 5. Solution
+Once we opened and when through the PDF we could tell that there were no flags hidden on the PDF so the best way to get more information would be to check its Metadata. Once we used Exiftool to recive its meta-data we found that inplace of the Author a Base64-encoded string was kept once it was decyipered it was the flag
+---
+
+## 6. Flag
+picoCTF{puzzl3d_m3tadata_f0und!_c2073669}
